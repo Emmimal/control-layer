@@ -366,7 +366,7 @@ ship it to object storage on a rolling basis and rotate locally.
   — lightweight hook that catches NaN propagation at the exact layer it
   originates, in under 3ms overhead.
 
-  - [context-engine](https://github.com/Emmimal/context-engine) — retrieval,
+- [context-engine](https://github.com/Emmimal/context-engine) — retrieval,
   re-ranking, memory decay, and token budget control for RAG systems. The
   control layer handles what the model returns. The context engine handles
   what it receives. They compose.
