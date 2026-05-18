@@ -351,14 +351,8 @@ ship it to object storage on a rolling basis and rotate locally.
 
 ## Related
 
-- ## Related
 
 **Same series — production layers for LLM systems:**
-
-- [context-engine](https://github.com/Emmimal/context-engine) — retrieval,
-  re-ranking, memory decay, and token budget control for RAG systems. The
-  control layer handles what the model returns. The context engine handles
-  what it receives. They compose.
 
 - [RAG Is Blind to Time — I Built a Temporal Layer to Fix It in Production](https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/)
   — temporal awareness layer for RAG systems that treats time as a first-class
@@ -371,6 +365,11 @@ ship it to object storage on a rolling basis and rotate locally.
 - [PyTorch NaNs Are Silent Killers — I Built a 3ms Hook to Catch Them at the Exact Layer](https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/)
   — lightweight hook that catches NaN propagation at the exact layer it
   originates, in under 3ms overhead.
+
+  - [context-engine](https://github.com/Emmimal/context-engine) — retrieval,
+  re-ranking, memory decay, and token budget control for RAG systems. The
+  control layer handles what the model returns. The context engine handles
+  what it receives. They compose.
 
 ---
 
