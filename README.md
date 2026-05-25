@@ -12,7 +12,7 @@ library handles what prompt engineering cannot — enforcing what the model actu
 blocking what should never reach it, and recovering cleanly when things break.
 
 Read the full write-up on Towards Data Science →
-**Prompt Engineering Failed in Production — I Built the Control Layer That Actually Works**
+**[Prompt Engineering Failed in Production — I Built the Control Layer That Actually Works](https://towardsdatascience.com/prompt-engineering-isnt-enough-i-built-a-control-layer-that-works-in-production/)**
 
 ---
 
